@@ -1,0 +1,141 @@
+body {
+  margin: 0 auto;
+  width: 960px;
+  background-image: url(../images/bg1.jpeg);
+  position: relative;
+}
+h1 {
+  font-family: 'Markazi Text';
+  font-size: 30px;
+}
+.content {
+  opacity: 0.5;
+}
+#stars1 {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  width: 30px;
+  height: 30px;
+  animation: pulse 2s linear infinite;
+}
+#stars2 {
+  position: absolute;
+  top: 400px;
+  left: 400px;
+  width: 40px;
+  height: 40px;
+  animation: pulse 3s linear infinite;
+}
+#stars3 {
+  position: absolute;
+  top: 40px;
+  left: 700px;
+  width: 50px;
+  height: 50px;
+  animation: pulse 4s linear infinite;
+}
+#stars4 {
+  position: absolute;
+  top: 230px;
+  left: 600px;
+  width: 60px;
+  height: 60px;
+  animation: pulse 5s linear infinite;
+}
+#stars5 {
+  position: absolute;
+  top: 70px;
+  left: 60px;
+  width: 20px;
+  height: 20px;
+  animation: pulse 6s linear infinite;
+}
+#stars6 {
+  position: absolute;
+  top: 260px;
+  left: 50px;
+  width: 25px;
+  height: 25px;
+  animation: pulse 7s linear infinite;
+}
+#stars7 {
+  position: absolute;
+  top: 10px;
+  left: 650px;
+  width: 55px;
+  height: 55px;
+  animation: pulse 8s linear infinite;
+}
+@keyframes pulse {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+h1 {
+  width: 1024px;
+  text-align: center;
+  font-size: 3em;
+  margin-top: 80px;
+  color: white;
+}
+.image-container {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+.container {
+  width: 940px;
+  margin: 60px auto;
+}
+.planets {
+  padding: 8px;
+  width: 100%;
+}
+td:first-child {
+  border: 2px solid;
+  padding: 10px 0;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
+td {
+  text-align: center;
+  border-style: solid;
+}
+th {
+  padding: 10px;
+}
+.sup {
+  position: relative;
+  bottom: 6px;
+  font-size: 12px;
+  margin-left: 1px;
+}
+.th1 {
+  background-color: #66adcc;
+  border: 2px solid white;
+}
+.th2 {
+  background-color: #d9fbdd;
+  border: 2px solid white;
+}
+.td1 {
+  background-color: #66adcc;
+}
+.td2 {
+  background-color: #d9fbdd;
+}
+table tr th, table tr td {
+  border-radius: 12px;
+}
+td:hover, th:hover {
+  border-color: #0bb0e9;
+}
+.footer img {
+  width: 150px;
+  height: 150px;
+}
